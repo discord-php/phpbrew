@@ -133,6 +133,40 @@ class VariantBuilder
             'openssl',
             'zip',
         ),
+
+        // variant for DiscordPHP
+        'dphp' => array(
+            'bcmath',
+            'bz2',
+            'calendar',
+            'cli',
+            'ctype',
+            'dom',
+            'fileinfo',
+            'filter',
+            'ipc',
+            'json',
+            'mbregex',
+            'mbstring',
+            'mhash',
+            'pcntl',
+            'pcre',
+            'pdo',
+            'pear',
+            'phar',
+            'posix',
+            'readline',
+            'sockets',
+            'tokenizer',
+            'xml',
+            'curl',
+            'openssl',
+            'zip',
+
+            'iconv',
+            'sodium',
+            'zlib',
+        ),
     );
 
     public function __construct()
